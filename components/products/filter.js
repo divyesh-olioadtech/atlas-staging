@@ -162,7 +162,7 @@ export default function ProductFilterComponent({
             <div className="flex flex-col gap-2 mt-2">
               {productLinks.map((link) => (
                 <Link
-                  href={`/${link.url}`}
+                  href={link.url}
                   key={link.url}
                   className="text-[16px] font-medium text-[#606370] hover:text-[#0052B4]"
                 >

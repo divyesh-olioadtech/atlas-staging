@@ -1,6 +1,6 @@
 @import "tailwindcss";
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -8,10 +8,10 @@ html {
 h1,
 h2,
 h3 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
 }
 .plus {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
 }
 .pitag {
   @apply text-[#4063D7] text-[14px] font-bold tracking-widest;
@@ -113,19 +113,19 @@ h3 {
 
 .custom-blog h1 {
   @apply text-[24px] sm:text-[32px] md:text-[35px] lg:text-[42px] font-bold  leading-[1.2]  text-[#1A1D2D];
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
 }
 .custom-blog h2 {
   @apply text-[22px] sm:text-[24px] md:text-[28px] lg:text-[32px] leading-[1.2] font-bold mt-10 mb-4 text-gray-800;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
 }
 .custom-blog h3 {
   @apply text-[18px] sm:text-[18px] md:text-[19px] lg:text-[20px] leading-[1.2]  font-bold mt-8 mb-3 text-gray-800;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
 }
 .custom-blog p {
   @apply text-[16px] font-normal leading-[150%] text-[#606370] mt-2 mb-4;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
 }
 .custom-blog ul {
   @apply list-disc pl-5 text-[16px] mb-8 text-[#606370];

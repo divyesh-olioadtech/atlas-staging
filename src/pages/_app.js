@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "@/styles/embla.css";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import WhatsAppButton from "../../components/WhatsAppButton";
@@ -7,6 +6,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import { useEffect } from "react";
 import { initTracker, recordPage } from "../../lib/tracker";
+import { dmSans, plusJakartaSans } from "../../lib/fonts";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
   const isBlogPage = pathname.startsWith("/blog");
 
   return (
-    <>
+    <div className={`${dmSans.variable} ${plusJakartaSans.variable}`}>
       {!isBlogPage && (
         <Head>
           <link rel="canonical" href={canonicalUrl} />
@@ -54,6 +54,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       <WhatsAppButton />
-    </>
+    </div>
   );
 }

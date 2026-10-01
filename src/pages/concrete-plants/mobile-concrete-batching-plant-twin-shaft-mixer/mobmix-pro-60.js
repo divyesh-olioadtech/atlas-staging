@@ -35,7 +35,7 @@ export default function ABP80() {
       "/images/concrete-plants/mobmix-pro-60-1.JPG",
       "/images/concrete-plants/mobmix-pro-60-2.webp",
       "/images/concrete-plants/new-pro-60.webp",
-      "/images/concrete-plants/mobmixpronewimage.JPG",
+      "/images/concrete-plants/mobmixpronewimage.webp",
       "/images/concrete-plants/mobmix-pro-60-5.JPG",
       "/images/concrete-plants/mobmix-pro-60-6.jpg",
     ],
